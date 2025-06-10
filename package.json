@@ -1,5 +1,5 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "BlogWebsite",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
