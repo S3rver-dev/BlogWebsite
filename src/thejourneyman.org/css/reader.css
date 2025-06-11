@@ -1,0 +1,55 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    padding: 10%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+section {
+    background: gray;
+    color: black;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    font-size: 1.5em;
+    padding: 10%;
+    color: black;
+    background: white;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item-link {
+    display: inline-block;
+    margin-inline: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.site-name {
+    margin-left: 5px;
+    position: static;
+    
+
+}
